@@ -4,17 +4,6 @@ Transform: AWS::Serverless-2016-10-31
 Description: Easy serverless Amazon Trascribe
 
 Metadata:
-  AWS::ServerlessRepo::Application:
-    Name: serverless-transcribe
-    Description: Easy serverless Amazon Trascribe via the web
-    Author: Christopher Kalafarski
-    SpdxLicenseId: MIT
-    LicenseUrl: LICENSE
-    ReadmeUrl: README.md
-    Labels: ['transcribe', 'transcription', 'serverless']
-    HomePageUrl: https://github.com/farski/serverless-transcribe
-    SemanticVersion: 2.2.0
-    SourceCodeUrl: https://github.com/farski/serverless-transcribe
   AWS::CloudFormation::Interface:
     ParameterGroups:
       - Label:

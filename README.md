@@ -39,3 +39,8 @@ The app can also be deployed using the  [AWS SAM CLI](https://github.com/awslabs
 Any other deployment method that is compatible with SAM templates would also work.
 
 _Note: The deploy script that was previously included in the project is no longer supported._
+_Note: The email functionality relies on AWS SNS email sending._
+
+
+
+

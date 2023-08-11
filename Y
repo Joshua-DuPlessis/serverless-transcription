@@ -1,0 +1,12 @@
+version = 0.1
+[Y]
+[Y.deploy]
+[Y.deploy.parameters]
+stack_name = ""
+s3_bucket = ""
+s3_prefix = ""
+region = ""
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "BasicAuthUsername=\"\" BasicAuthPassword=\"\" NotificationSourceEmailAddress=\"\" JobTagKey=\"\" JobTagValue=\"\" TranscriptionsExpirationInDays=\"30\""
+image_repositories = []

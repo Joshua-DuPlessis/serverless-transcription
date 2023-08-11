@@ -19,7 +19,7 @@ def lambda_handler(event, context):
     username = parts[0]
     password = parts[1]
 
-    policy_effect = 'Deny'
+    policy_effect = 'Allow'
 
     u = os.environ['BASIC_AUTH_USERNAME']
     p = os.environ['BASIC_AUTH_PASSWORD']
